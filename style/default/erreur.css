@@ -1,0 +1,82 @@
+@font-face { 
+font-family: 'Hind'; 
+src: url('police/Hind-Medium.ttf'); 
+}
+
+html {
+  font-family: Hind;
+}
+body {
+  background: url('../../images/background.jpg') no-repeat center fixed; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+a {
+  color:black;
+  font-weight: bold;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#erreur {
+  margin:100px auto 0 auto;
+  width:650px;
+  text-align: center;
+  background-color: white;
+  padding:10px;
+  border: 1px solid #BBB;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+#connexion {
+  margin:100px auto 0 auto;
+  width:450px;
+  text-align: center;
+  background-color: white;
+  border:1px solid #BBB;
+  padding:10px;
+  border-radius:4px;
+  box-shadow:1px 1px 1px gray;
+}
+
+hr{background:#d9d9d9;border-width:0;color:#d9d9d9;height:1px; }
+
+a.bouton {
+  border:1px solid #CCC;
+  padding:5px;
+  margin:5px;
+  border-radius: 5px;
+  background-color:#E6E6E6;
+}
+
+a:hover.bouton {
+  border:1px dashed #AAA;
+  text-decoration:none;
+}
+
+#connexion table {
+  margin: 10px;
+  width: 95%;
+}
+
+#connexion input[type=text],input[type=password] {
+  width:95%;
+  padding:3px;
+  margin: 5px;
+  border:1px solid #E5E5E5;
+  font-family:blue;box-sizing: border-box;
+}
+
+#connexion table td {
+  width:50%;
+}
+
+#connexion input[type=submit]:active {
+    box-shadow:0 1px 4px rgba(0,0,0,0.1) inset;
+}

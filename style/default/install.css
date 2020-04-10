@@ -1,0 +1,208 @@
+html {
+  margin:0 auto;
+  width:945px;
+  background: url('../../images/admin/bg.jpg') repeat scroll 0% 0% transparent;
+}
+
+body {
+  background-color: rgba(0, 0,0, 0.2);
+  padding:13px 20px 20px 20px;
+  font-size:15px;
+  border-radius:0 0 5px 5px;
+}
+
+
+h1 {font-family: Glegoo; color:white; text-align: center; font-weight:bold;font-size:35px;}
+/*h2 { font-family: minecraft; font-size:15px; margin:0px; text-shadow:1px 1px 2px gray; }
+*/
+/*h3{ background:url('../../images/item/5.png'); text-shadow:1px 1px 2px black; color:white; padding:5px; margin:5px 5px 0px 5px;  border-radius:2px;}
+*/h4 { font-weight:bold; font-size:larger; margin-top:10px; text-align: center; }
+td {vertical-align: middle;}
+textarea {font-family: Arial; font-size:12px; width:100%;}
+input[type=text], select, textarea {border-radius:2px; padding:5px; border:1px solid #DDD;}
+
+.center {text-align: center; font-weight: bold;}
+.notification { background-color:#AA0303; padding:0px 6px 0px 5px; border-radius:5px; }
+.input_s {
+  padding:3px 6px 3px 6px;
+  background-image:url('../../images/item/1.png');
+  text-shadow:1px 1px 2px black;
+  border-radius:3px;
+  display:block;
+  font-family: blue;
+  font-size: 16px;
+  color:white;
+  border:1px solid #BBB;
+  text-decoration: none;
+  margin:0 auto;
+}
+.input_s:hover{ border:1px solid #424242; text-decoration: none; cursor: pointer; }
+a:hover { color:black; }
+
+/*#content, .block, #footer, #sidebar, .informations {
+  border:1px solid rgba(0,0,0,0.3);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+*/
+/*===> HEADER <===*/
+
+#header {
+  padding:20px;
+  margin-bottom: 10px;
+}
+
+#header h2 {
+  text-align: center;
+  color:white;
+  font-family: Glegoo;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+#header h2 a {
+  color:white;
+}
+
+/*===> MENU DROITE <===*/
+#sidebar img {width:30px;padding-right:7px;vertical-align: middle;top:-3px;position: relative;}
+#sidebar img:hover {text-decoration: none;}
+#sidebar span {vertical-align: middle;}
+
+#sidebar {
+  float: left;
+  width:230px;
+  padding:5px;
+  margin-bottom: 10px;
+  background: rgba(0,0,0,0.4);
+  -moz-border-radius:15px 0px 0px 0 px;
+  -webkit-border-radius:15px 0px 0px 0px;
+  border-radius:15px 0px 0px 0px;
+  border: 1px groove #000000;
+  right:1px;
+  position: relative;
+}
+
+#sidebar span{
+  display: block;
+  padding:5px;
+  color:white;
+  margin:7px;
+}
+
+#sidebar span.selected {
+  color:white;
+  padding:5px;
+  position:relative;
+}
+
+#sidebar span.selected:after {
+  left:97%;
+  right:-5441px;
+  content:'';
+  display:block;
+  position:absolute;
+  top:7px;
+  width:0;
+  height:0;
+  border-color: transparent white transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+}
+
+/*===> FOOTER <===*/
+#footer {
+  background-color:white;
+  padding:5px;
+  text-align:center;
+  color:black;
+  margin-top:10px;
+  clear:both;
+}
+
+#footer a{
+  font-weight:bold;
+}
+
+/*===> CONTENT <===*/
+#content.index .compatibilite tr:last-child td { text-align: center; }
+#content {
+  background-color:white;
+  padding:5px;
+  overflow: hidden;
+  border: 1px groove #000000;
+  border-width: 1px 1px 1px 0px;
+  position:relative;
+  right:1px;
+}
+
+#content .box1 {
+  margin:0px 10px 10px 15px;
+  background-image:url('../../images/item/12.png');
+  color:white;
+  text-shadow:black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+  padding:10px;
+  border-radius:0 0 3px 3px;
+}
+#content .box2 {
+  margin:0px 10px 10px 15px;
+  background-image:url('../../images/item/1.png');
+  color:white;
+  text-shadow:black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+  padding:10px;
+  border-radius:0 0 3px 3px;
+}
+
+/*===> BDD <===*/
+#content.bdd p {margin: 5px; text-align: center;}
+#content.bdd table {margin:20px auto; width:90%;}
+#content.bdd table td {width:50%;}
+#content.bdd input:not([type=submit]) {width:100%;}
+
+/*===> JSONAPI/MINEQUERY <===
+#content.jsonapi ul,li{margin:2px; padding:2px; list-style-type: decimal;}
+#content.jsonapi p {text-align: left; margin: 10px;}
+#content.jsonapi ul {padding-left:50px;}
+#content.jsonapi .youtube {text-align: center; margin:10px; padding: 10px;}
+#content.jsonapi ul.minequery li>input[type=text] { width: 30%; }
+#content.jsonapi #minequeryEtat {color:red; font-weight:bold;}*/
+
+/*===> ADMINISTRATION <===*/
+#content.admin table {margin:20px auto; width:90%;}
+#content.admin input:not([type=submit]):not([type=checkbox]) {width:100%;}
+#content.admin p {text-align: center; margin: 10px;}
+#content.admin td {width:50%;}
+#content.admin input[type=checkbox] {
+  margin-right: 6px;
+  position: relative;
+  top: 2px;
+}
+
+/*===> PARAMETRE SITE <===*/
+#content.parametre_site table {margin:20px auto; width:90%;}
+#content.parametre_site input:not([type=submit]),.parametre_site textarea {width:100%;}
+#content.parametre_site p {text-align: center; margin: 10px;}
+#content.parametre_site td {vertical-align: middle; width:50%;}
+
+/*===> PARAMETRE PAGES <===*/
+#content.parametre_page table {margin:20px auto; width:90%;}
+#content.parametre_page input:not([type=submit]):not([name=valeur]):not([name=idp]):not([name=idd]),.parametre_site textarea {width:100%;}
+#content.parametre_page p {text-align: left; margin: 10px;}
+#content.parametre_page ul,li{margin:2px; padding:2px; list-style-type: decimal;}
+#content.parametre_page ul {padding-left:50px;}
+#content.parametre_page img {border:1px solid #DDD;}
+#content.parametre_page table.autres td:first-child {text-align: left; width:90%;}
+#content.parametre_page table.autre td:last-child {width:10%;text-align: center;}
+
+
+
+
+/*============ NEW ============== */
+
+#header span {
+    font-size: smaller;
+}
+
+#header span.strike {
+    text-decoration: line-through;
+}

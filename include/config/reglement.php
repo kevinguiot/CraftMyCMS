@@ -1,0 +1,1 @@
+<div style="text-align: center; margin: 20px; font-weight:bold;">Règlement de votre serveur avec du code HTML.</div>

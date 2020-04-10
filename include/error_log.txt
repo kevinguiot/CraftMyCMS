@@ -1,0 +1,67 @@
+[10-Apr-2020 03:06:57 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in C:\wamp3\www\craftmycms\4.0.2.2\install\sql.php:202
+Stack trace:
+#0 C:\wamp3\www\craftmycms\4.0.2.2\install\etapes\2.php(28): include()
+#1 C:\wamp3\www\craftmycms\4.0.2.2\include\init.php(522): include('C:\\wamp3\\www\\cr...')
+#2 C:\wamp3\www\craftmycms\4.0.2.2\install\index.php(13): include('C:\\wamp3\\www\\cr...')
+#3 {main}
+  thrown in C:\wamp3\www\craftmycms\4.0.2.2\install\sql.php on line 202
+[10-Apr-2020 03:08:15 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp3\www\craftmycms\4.0.2.2\install\sql.php on line 202
+[10-Apr-2020 03:08:15 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:08:15 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\install\index.php:0
+[10-Apr-2020 03:08:15 Europe/Paris] PHP   2. include() C:\wamp3\www\craftmycms\4.0.2.2\install\index.php:13
+[10-Apr-2020 03:08:15 Europe/Paris] PHP   3. include() C:\wamp3\www\craftmycms\4.0.2.2\include\init.php:522
+[10-Apr-2020 03:08:15 Europe/Paris] PHP   4. include() C:\wamp3\www\craftmycms\4.0.2.2\install\etapes\2.php:28
+[10-Apr-2020 03:12:11 Europe/Paris] PHP Notice:  Undefined variable: nbrVisiteA in C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php on line 84
+[10-Apr-2020 03:12:11 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:12:11 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php:0
+[10-Apr-2020 03:12:11 Europe/Paris] PHP Notice:  Undefined variable: nbrVisiteT in C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php on line 100
+[10-Apr-2020 03:12:11 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:12:11 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php:0
+[10-Apr-2020 03:17:12 Europe/Paris] PHP Notice:  Undefined variable: nbrVisiteA in C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php on line 84
+[10-Apr-2020 03:17:12 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:17:12 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php:0
+[10-Apr-2020 03:17:12 Europe/Paris] PHP Notice:  Undefined variable: nbrVisiteT in C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php on line 100
+[10-Apr-2020 03:17:12 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:17:12 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php:0
+[10-Apr-2020 03:17:44 Europe/Paris] PHP Notice:  Undefined variable: nbrVisiteA in C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php on line 84
+[10-Apr-2020 03:17:44 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:17:44 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php:0
+[10-Apr-2020 03:17:44 Europe/Paris] PHP Notice:  Undefined variable: nbrVisiteT in C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php on line 100
+[10-Apr-2020 03:17:44 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:17:44 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php:0
+[10-Apr-2020 03:23:51 Europe/Paris] PHP Notice:  Undefined variable: nbrVisiteA in C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php on line 84
+[10-Apr-2020 03:23:51 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:23:51 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php:0
+[10-Apr-2020 03:23:51 Europe/Paris] PHP Notice:  Undefined variable: nbrVisiteT in C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php on line 100
+[10-Apr-2020 03:23:51 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:23:51 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\index.php:0
+[10-Apr-2020 03:25:56 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp3\www\craftmycms\4.0.2.2\admin\plugins.php on line 165
+[10-Apr-2020 03:25:56 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:25:56 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\plugins.php:0
+[10-Apr-2020 03:37:01 Europe/Paris] PHP Notice:  Undefined variable: activeSkin in C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php on line 199
+[10-Apr-2020 03:37:01 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:37:01 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php:0
+[10-Apr-2020 03:37:01 Europe/Paris] PHP Notice:  Undefined variable: provenanceSkin2D in C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php on line 203
+[10-Apr-2020 03:37:01 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:37:01 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php:0
+[10-Apr-2020 03:37:01 Europe/Paris] PHP Notice:  Undefined variable: provenanceSkin3D in C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php on line 208
+[10-Apr-2020 03:37:01 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:37:01 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php:0
+[10-Apr-2020 03:37:32 Europe/Paris] PHP Notice:  Undefined variable: activeSkin in C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php on line 199
+[10-Apr-2020 03:37:32 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:37:32 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php:0
+[10-Apr-2020 03:37:32 Europe/Paris] PHP Notice:  Undefined variable: provenanceSkin2D in C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php on line 203
+[10-Apr-2020 03:37:32 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:37:32 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php:0
+[10-Apr-2020 03:37:32 Europe/Paris] PHP Notice:  Undefined variable: provenanceSkin3D in C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php on line 208
+[10-Apr-2020 03:37:32 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:37:32 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php:0
+[10-Apr-2020 03:37:33 Europe/Paris] PHP Notice:  Undefined variable: activeSkin in C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php on line 199
+[10-Apr-2020 03:37:33 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:37:33 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php:0
+[10-Apr-2020 03:37:33 Europe/Paris] PHP Notice:  Undefined variable: provenanceSkin2D in C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php on line 203
+[10-Apr-2020 03:37:33 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:37:33 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php:0
+[10-Apr-2020 03:37:33 Europe/Paris] PHP Notice:  Undefined variable: provenanceSkin3D in C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php on line 208
+[10-Apr-2020 03:37:33 Europe/Paris] PHP Stack trace:
+[10-Apr-2020 03:37:33 Europe/Paris] PHP   1. {main}() C:\wamp3\www\craftmycms\4.0.2.2\admin\pages.php:0
