@@ -8,7 +8,7 @@ Cette version est désormais disponible en open source et l'étape de validation
 
 - PHP 7.2
 - Extension cURL
-- IonCube ([guide d'installation][guide])
+- IonCube ([guide d'installation][https://www.myprogrammingtutorials.com/install-ioncube-loader-localhost.html])
 
 ## Installation
 
