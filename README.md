@@ -1,8 +1,12 @@
 # CraftMyCMS
 
-CraftMyCMS est un CMS totalement personnalisable qui s'adaptera parfaitement à vos serveurs Minecraft sous CraftBukkit.
+La dernière version de CraftMyCMS version Perso (4.0.2.2) est désormais disponbile en open-source. Elle a été adaptée afin qu'elle soit activée de base.
 
-Cette version est désormais disponible en open source et l'étape de validation n'est plus nécessaire, le CMS est directement activé.
+Les systèmes de mises à jour, chargement de plugins, de thèmes ne sont plus disponibles.
+
+## Qu'est-ce que c'est ?
+
+CraftMyCMS est un CMS totalement personnalisable qui s'adaptera parfaitement à vos serveurs Minecraft sous CraftBukkit.
 
 ## Compatibilité
 
