@@ -4,6 +4,8 @@ La dernière version de CraftMyCMS version Perso (4.0.2.2) est désormais dispon
 
 Les systèmes de mises à jour, chargement de plugins, de thèmes ne sont plus disponibles.
 
+#### Attention, le domaine craftmycms.fr n'est plus alloué à CraftMyCMS ; je ne suis en aucun cas responsable de ce qui est présent sur ce site. ####
+
 ## Qu'est-ce que c'est ?
 
 CraftMyCMS est un CMS totalement personnalisable qui s'adaptera parfaitement à vos serveurs Minecraft sous CraftBukkit.
