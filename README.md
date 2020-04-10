@@ -19,4 +19,3 @@ Si le projet vous intéresse, un système de contribution via GitHub peut être 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-[guide]: http://https://www.myprogrammingtutorials.com/install-ioncube-loader-localhost.html "Guide d'installation de IonCube"
