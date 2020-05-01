@@ -4,7 +4,7 @@ La dernière version de CraftMyCMS version Perso (4.0.2.2) est désormais dispon
 
 Les systèmes de mises à jour, chargement de plugins, de thèmes ne sont plus disponibles.
 
-#### Attention, le domaine craftmycms.fr n'est plus alloué à CraftMyCMS ; je ne suis en aucun cas responsable de ce qui est présent sur ce site. ####
+En fonction de vos contributions, le magasin de plugins et de thème pourrait revoir le jour.
 
 ## Qu'est-ce que c'est ?
 
