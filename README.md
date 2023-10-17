@@ -1,20 +1,15 @@
-# CraftMyCMS
-
-La dernière version de CraftMyCMS version Perso (4.0.2.2) est désormais disponbile en open-source. Elle a été adaptée afin qu'elle soit activée de base.
-
-Les systèmes de mises à jour, chargement de plugins, de thèmes ne sont plus disponibles.
-
-En fonction de vos contributions, le magasin de plugins et de thème pourrait revoir le jour.
-
 ## Qu'est-ce que c'est ?
 
-CraftMyCMS est un CMS totalement personnalisable qui s'adaptera parfaitement à vos serveurs Minecraft sous CraftBukkit.
+CraftMyCMS est un CMS totalement personnalisable qui s'adaptera parfaitement à vos serveurs Minecraft sous CraftBukkit. Ce CMS a été développé par Kévin GUIOT de décembre 2012 à 2015. À ce moment-là, le CMS coutait 9,99€.
+
+Aujourd'hui, la dernière version de CraftMyCMS version Perso (4.0.2.2) est disponbile en open-source. Elle a été adaptée afin qu'elle soit activée de base.
+
+Les systèmes de mises à jour, chargement de plugins, de thèmes ne sont plus disponibles.
 
 ## Compatibilité
 
 - PHP 7.2
 - Extension cURL
-- IonCube ([guide d'installation](https://www.myprogrammingtutorials.com/install-ioncube-loader-localhost.htm))
 
 ## Installation
 
