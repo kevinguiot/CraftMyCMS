@@ -12,6 +12,7 @@
 
 $titre_page = "Gestion des news";
 include("../include/init.php");
+include("../include/news_social.php");
 
 $site = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 $site = str_replace('www.', null, $site);
@@ -98,6 +99,7 @@ if(!empty($_POST)) {
 				foreach($_POST['selection'] as $selection) {
 					$deleteNews = $connexion->prepare('DELETE FROM '.$prefixe.'news WHERE id=:id');
 					$deleteNews->execute(array('id' => $selection));
+					newsSocialSupprimerNews((int) $selection);
 				}
 				header("location: ?msg=supprnews:true");
 				exit;
@@ -113,6 +115,7 @@ if(!empty($_GET['delete']) && !empty($_GET['token'])) {
 		$id = $_GET['delete'];
 		if(is_numeric($id)) {
 			$connexion->exec("DELETE FROM ".$prefixe."news WHERE id=$id");
+			newsSocialSupprimerNews((int) $id);
 			header("location: ?msg=supprnew:true");
 		}
 	}
@@ -256,6 +259,8 @@ include("header.php");
 						}
 						?>
 						Ajouté le <?php echo $req->date." à ".$req->heure; ?>
+						&bull; <?php echo newsSocialNbrLikes((int) $req->id); ?> j'aime
+						&bull; <a href="../index.php?id=<?php echo $req->id; ?>#commentaires"><?php echo newsSocialNbrCommentaires((int) $req->id); ?> commentaire(s)</a>
 					</div>    
 				<?php
 				}

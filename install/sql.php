@@ -148,6 +148,25 @@ if(defined('AUTH_ID') && AUTH_ID == true) {
       PRIMARY KEY (`id`)
     ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;");
 
+    $dbh->exec("CREATE TABLE IF NOT EXISTS `".$prefixe."news_likes` (
+      `id` int(11) NOT NULL AUTO_INCREMENT,
+      `id_news` int(11) NOT NULL,
+      `id_membre` int(11) NOT NULL,
+      `date` datetime NOT NULL,
+      PRIMARY KEY (`id`),
+      UNIQUE KEY `news_membre` (`id_news`, `id_membre`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;");
+
+    $dbh->exec("CREATE TABLE IF NOT EXISTS `".$prefixe."news_commentaires` (
+      `id` int(11) NOT NULL AUTO_INCREMENT,
+      `id_news` int(11) NOT NULL,
+      `id_membre` int(11) NOT NULL,
+      `content` text NOT NULL,
+      `date` datetime NOT NULL,
+      PRIMARY KEY (`id`),
+      KEY `id_news` (`id_news`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;");
+
     $dbh->exec("CREATE TABLE IF NOT EXISTS `".$prefixe."slider` (
       `id` int(3) NOT NULL AUTO_INCREMENT,
       `slider` text NOT NULL,

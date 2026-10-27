@@ -12,10 +12,13 @@
 
 $titre_page = "accueil";
 include("include/init.php");
+include("include/news_social.php");
+newsSocialTraiter();
 include("include/header.php");
 ?>
 <div id="content" class="index">
     <?php
+    newsSocialAssets();
     if(!empty($_GET['msg'])) {
         $msg = $_GET['msg'];
         if($msg == "admin:false") { echo '<div class="warning_r">Vous n\'avez pas les droits nécessaires pour accéder à cette page</div>'; }
@@ -71,7 +74,7 @@ include("include/header.php");
             $user = " par <a style=\"font-weight:bold;\" href=\"membre.php?pseudo=".$selectNews['user']."\">".$selectNews['user']."</a>";
         }
         
-        echo '<div class="selectNews">';
+        echo '<div class="selectNews" id="news-'.(int) $selectNews['id'].'">';
         if(!empty($selectNews['titre'])) {
             echo '<a class="titre" href="?id='.$selectNews['id'].'">'.$selectNews['titre'].'</a>';
             echo '<hr class="hrdashed">';
@@ -83,6 +86,10 @@ include("include/header.php");
         echo '<br style="clear:both;">';
         echo '<hr class="hrdashed">';
         echo '<a style="font-weight:bold;" href="?id='.$selectNews['id'].'">#</a> Ajouté le '.$selectNews['date'].' à '.$selectNews['heure'].$user;
+        echo newsSocialBarre((int) $selectNews['id'], !empty($_GET['id']));
+        if(!empty($_GET['id'])) {
+            echo newsSocialCommentaires((int) $selectNews['id']);
+        }
         echo '</div>';
     }
     

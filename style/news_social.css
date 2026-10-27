@@ -1,0 +1,176 @@
+/* Likes & commentaires des news : styles neutres, compatibles avec tous les thèmes. */
+.cmc-social {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	margin-top: 8px;
+	font-size: 13px;
+	line-height: 1.4;
+	clear: both;
+}
+
+.cmc-social form {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.cmc-social-btn,
+.cmc-social .cmc-social-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	margin: 0;
+	padding: 4px 10px;
+	border: 1px solid rgba(127, 127, 127, 0.45);
+	border-radius: 999px;
+	background: rgba(127, 127, 127, 0.08);
+	color: inherit;
+	font: inherit;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+	box-shadow: none;
+	text-shadow: none;
+	width: auto;
+	height: auto;
+	transition: background-color .15s, border-color .15s, color .15s;
+}
+
+.cmc-social-btn:hover,
+.cmc-social-btn:focus {
+	background: rgba(127, 127, 127, 0.18);
+	text-decoration: none;
+}
+
+.cmc-social-icon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	flex: 0 0 14px;
+	vertical-align: middle;
+}
+
+.cmc-social-like .cmc-social-icon {
+	color: #9a9a9a;
+	transition: transform .15s, color .15s;
+}
+
+.cmc-social-like.cmc-social-active {
+	border-color: rgba(226, 54, 80, 0.6);
+	background: rgba(226, 54, 80, 0.1);
+}
+
+.cmc-social-like.cmc-social-active .cmc-social-icon {
+	color: #e23650;
+	transform: scale(1.15);
+}
+
+.cmc-comments {
+	margin-top: 15px;
+	clear: both;
+	text-align: left;
+}
+
+.cmc-comments .cmc-comments-title {
+	margin: 0 0 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: inherit;
+}
+
+.cmc-comments-empty,
+.cmc-comments-login {
+	margin: 8px 0;
+	opacity: .8;
+}
+
+.cmc-comment {
+	display: flex;
+	gap: 10px;
+	padding: 8px 0;
+	border-top: 1px solid rgba(127, 127, 127, 0.25);
+}
+
+.cmc-comment-avatar {
+	flex: 0 0 32px;
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	image-rendering: pixelated;
+	float: none;
+	margin: 0;
+}
+
+.cmc-comment-body {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.cmc-comment-meta {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 6px;
+	font-size: 12px;
+}
+
+.cmc-comment-author {
+	font-weight: bold;
+}
+
+.cmc-comment-author.cmc-rang-admin { color: #AA0303; }
+.cmc-comment-author.cmc-rang-modo { color: green; }
+
+.cmc-comment-date {
+	opacity: .7;
+}
+
+.cmc-comment-delete {
+	display: inline;
+	margin: 0 0 0 auto;
+}
+
+.cmc-social-link {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+	color: inherit;
+	font: inherit;
+	text-decoration: underline;
+	opacity: .7;
+	cursor: pointer;
+	box-shadow: none;
+	width: auto;
+	height: auto;
+}
+
+.cmc-social-link:hover {
+	opacity: 1;
+}
+
+.cmc-comment-content {
+	margin-top: 3px;
+	word-wrap: break-word;
+	overflow-wrap: anywhere;
+}
+
+.cmc-comment-form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 6px;
+	margin-top: 10px;
+}
+
+.cmc-comment-form textarea {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 100%;
+	min-height: 70px;
+	padding: 6px;
+	font: inherit;
+	resize: vertical;
+}
